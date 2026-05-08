@@ -560,6 +560,7 @@ footer {
 }
 .part2 .sect1 p {
     text-align: center;
+    line-height: 30px;
 }
 .sect1 .one {
     text-align: center;
@@ -580,10 +581,39 @@ footer {
 .label1{
     display: block;
 }
+.main1 {
+    margin-bottom: 20px;
+}
+.main1 p  {
+    line-height: 30px;
+}
+.main2 {
+    margin-bottom: 20px;
+}
+.main2 p {
+    line-height: 30px;
+}
+.main3 {
+    margin-bottom: 20px;
+}
+.main3 p {
+    line-height: 30px;
+}
 
 .part4 .king1 {
     display: block;
     text-align: center;
+    margin-bottom: 50px;
+}
+
+.king1 .sector1 p {
+    line-height: 30px;
+}
+.king2 .sector3 p {
+    line-height: 30px;
+}
+.king3 .sector5 p {
+    line-height: 30px;
 }
 
 
@@ -591,11 +621,13 @@ footer {
 .part4 .king2 {
     display: block;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .part4 .king3 {
     display: block;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .part5 {
@@ -603,7 +635,9 @@ footer {
     width: 100%;
     font-size: 30px;
 }
-
+.client2 p {
+    line-height: 30px;
+}
 .dom2 .client1 img {
     width: 100%;
 }
