@@ -1,0 +1,634 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.navbar h1 .one1 {
+    color: black;
+    text-align: left;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.navbar .one1 h1 img {
+    font-size: 20px;
+    width: 20%;
+}
+
+.two2 .nav-links li {
+    display: inline;
+}
+
+.two2 .nav-links li a {
+    color: black;
+    text-align: right;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.two2 .nav-links li a i {
+    font-size: 25px;
+}
+
+.two2 .nav-links li a button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+}
+
+.part1 {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background-color: whitesmoke;
+}
+
+.part2 {
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 30px;
+    padding-bottom: 70px;
+}
+
+.bgone {
+    background-color: whitesmoke;
+}
+
+.part2 .sect1 h1 {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.part2 .sect1 p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.sect1 .one {
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    border: none;
+    padding: 20px 60px;
+    margin-right: 15px;
+}
+
+.sect1 .one:hover {
+    color: orange;
+    background-color: white;
+    border: 2px solid orangered;
+}
+
+.sect1 .two {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: none;
+    padding: 20px 60px;
+}
+
+.sect1 .two:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.sect2 img {
+    width: 500px;
+    height: 300px;
+}
+
+.part3 {
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.part  h2 {
+    color: black;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.part p {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.label1 {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    gap: 10px;
+}
+
+.main1 {
+    text-align: center;
+    padding: 40px 20px;
+    border: 3px solid whitesmoke;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.main1:hover {
+    border-top: 6px solid red;
+}
+
+.main1 h3 {
+    color: orange;
+    margin-bottom: 10px;
+}
+
+.main2 {
+    text-align: center;
+    padding: 40px 20px;
+    border: 3px solid whitesmoke;
+    margin: 5px;
+}
+
+.main2:hover {
+    border-top: 6px solid red;
+}
+
+.main2 h3 {
+    color: orange;
+    margin-bottom: 10px;
+}
+
+.main3 {
+    text-align: center;
+    padding: 40px 20px;
+    border: 3px solid whitesmoke;
+    margin: 5px;
+}
+
+.main3:hover {
+    border-top: 6px solid red;
+}
+
+.main3 h3 {
+    color: orange;
+    margin-bottom: 10px;
+}
+
+.part3 .three {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px 60px;
+    margin-top: 50px;
+}
+
+.part3 .three:hover {
+    background-color: white;
+    color: black;
+}
+
+.part4 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.part4 header {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.part4 header h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+.part4 header p {
+    font-size: 20px;
+}
+
+.part4 .king1 {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    gap: 10px;
+}
+
+.part4 .king1 .sector1 h2 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.part4 .king1 .sector1 p {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.part4 .king1 .sector1 .Ek {
+    color: white;
+    background-color: black;
+    padding: 15px 60px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.part4 .king1 .sector1 .Ek:hover {
+    color: black;
+    background-color: white;
+}
+
+
+.part4 .king1 .sector2 img {
+    width: 300px;
+    height: 150px;
+}
+
+.part4 .king2 {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    gap: 10px;
+}
+
+.part4 .king2 .sector3 h2 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.part4 .king2 .sector3 p {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.part4 .king2 .sector3 .dho {
+    color: white;
+    background-color: black;
+    padding: 15px 60px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.part4 .king2 .sector3 .dho:hover {
+    color: black;
+    background-color: white;
+}
+
+
+.part4 .king2 .sector4 img {
+    width: 100px;
+    height: 200px;
+}
+
+.part4 .king3 {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    gap: 10px;
+}
+
+.part4 .king3 .sector5 h2 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.part4 .king3 .sector5 p {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.part4 .king3 .sector5 .theen {
+    color: white;
+    background-color: black;
+    padding: 15px 60px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.part4 .king3 .sector5 .theen:hover {
+    color: black;
+    background-color: white;
+}
+
+.part4 .king3 .sector6 img {
+    width: 250px;
+    height: 150px;
+}
+
+.part5 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    background-image: url(bg\ fruits.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color: white;
+}
+
+.dom1 {
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.dom1 h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+.dom1 p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.dom2 {
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+.dom2 .client1 img {
+    width: 400px;
+    border-radius: 25%;
+    padding-bottom: 20px;
+}
+
+.dom2 .client2 h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.dom2 .client2 p {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+
+.dom2 .client3 i {
+    font-size: 25px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+}
+
+
+.feed1 h1 {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.feed1 form input[type=text] {
+    text-align: left;
+    border: none;
+    outline: none;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    width: 60%;
+    border-bottom: 2px solid black;
+    font-size: 10px;
+}
+
+.feed1 form textarea {
+    text-align: left;
+    border: none;
+    outline: none;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    width: 60%;
+    border-bottom: 1px solid black;
+    font-size: 10px;
+}
+
+.feed1 form button {
+    padding: 10px 30px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border-color: red;
+}
+
+.feed1 form button:hover {
+    border: 1px solid black;
+}
+
+.feed1 .details2 {
+    width: 200%;
+}
+
+
+
+.lav1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.part6 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 30px;
+}
+.top {
+    padding-bottom: 90px;
+    padding-top: 90px;
+}
+
+.part7 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.phase1 {
+    padding: 40px 20px;
+    border: none;
+    margin: 5px;
+}
+
+.phase2 {
+    padding: 40px 20px;
+    border: none;
+    margin: 5px;
+}
+
+.phase3 {
+    padding: 40px 20px;
+    border: none;
+    margin: 5px;
+}
+
+.phase4 {
+    padding: 40px 20px;
+    border: none;
+    margin: 5px;
+    margin-bottom: 90px;
+}
+
+.part7 p {
+    line-height: 35px;
+}
+
+.phase4 i {
+    font-size: 40px;
+    padding-top: 10px;
+    padding-top: 10px;
+}
+
+.phase4 .text {
+    padding: 10px 70px 10px 5px;
+}
+
+
+
+.phase4 button {
+    padding: 15px 60px;
+    color: white;
+    background-color: orange;
+    border: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.phase4 button .char {
+    text-align: left;
+}
+
+.phase4 button:hover {
+    padding: 10px 60px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: black;
+    background-color: grey;
+ }
+
+.bgclr {
+    background-color: grey;
+}
+
+
+.mini iframe{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.bgimg{
+    background-image: url("sideimg.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    /* background-size: cover; */
+    padding: 50px 0px;
+}
+
+
+@media screen and (min-width:320px) and (max-width:460px) {
+    .navbar {
+        display: block;
+    }
+
+    .two2 .nav-links li {
+    display: none;
+}
+
+.part2 {
+    display: block;
+}
+.part2 .sect1 h1 {
+    font-size: 40px;
+    text-align: center;
+}
+.part2 .sect1 p {
+    text-align: center;
+}
+.sect1 .one {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px 40px;
+}
+
+.sect1 .two {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px 40px;
+}
+
+.sect2 img {
+    width: 100%;
+}
+
+.label1{
+    display: block;
+}
+
+.part4 .king1 {
+    display: block;
+    text-align: center;
+}
+
+
+
+.part4 .king2 {
+    display: block;
+    text-align: center;
+}
+
+.part4 .king3 {
+    display: block;
+    text-align: center;
+}
+
+.part5 {
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+
+.dom2 .client1 img {
+    width: 100%;
+}
+.part7 {
+    display: block;
+}
+.phase1 {
+    text-align: center;
+}
+.phase2 {
+    text-align: center;
+}
+.phase3 {
+    text-align: center;
+}
+.phase4 {
+    text-align: center;
+}
+.phase4 i {
+    text-align: center;
+}
+.phase4  .text {
+    text-align: center;
+}
+.phase4 .button {
+    text-align: center;
+}
+}
