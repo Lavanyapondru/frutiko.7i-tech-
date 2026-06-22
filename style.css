@@ -42,7 +42,11 @@ body {
     text-decoration: none;
     font-size: 20px;
     padding: 10px;
+    font-weight: bold;
 
+}
+.two2 .nav-links li a:hover {
+    color: orange;
 }
 
 .two2 .nav-links li a i {
@@ -54,6 +58,12 @@ body {
     color: white;
     border: none;
     padding: 10px 40px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.two2 .nav-links li a button:hover {
+background-color: white;
+color: black;
 }
 
 .part1 {
@@ -92,12 +102,13 @@ body {
     border: none;
     padding: 20px 60px;
     margin-right: 15px;
+    border-radius: 15px;
 }
 
 .sect1 .one:hover {
-    color: orange;
+    color: black;
     background-color: white;
-    border: 2px solid orangered;
+    border: 2px solid black;
 }
 
 .sect1 .two {
@@ -106,6 +117,7 @@ body {
     text-align: center;
     border: none;
     padding: 20px 60px;
+    border-radius: 15px;
 }
 
 .sect1 .two:hover {
@@ -198,6 +210,7 @@ body {
     text-align: center;
     padding: 15px 60px;
     margin-top: 50px;
+    border-radius: 15px;
 }
 
 .part3 .three:hover {
@@ -244,6 +257,7 @@ body {
     padding: 15px 60px;
     margin-bottom: 30px;
     text-align: left;
+    border-radius: 15px;
 }
 
 .part4 .king1 .sector1 .Ek:hover {
@@ -279,6 +293,7 @@ body {
     padding: 15px 60px;
     margin-bottom: 30px;
     text-align: left;
+    border-radius: 15px;
 }
 
 .part4 .king2 .sector3 .dho:hover {
@@ -314,6 +329,7 @@ body {
     padding: 15px 60px;
     margin-bottom: 30px;
     text-align: left;
+    border-radius: 15px;
 }
 
 .part4 .king3 .sector5 .theen:hover {
@@ -330,7 +346,7 @@ body {
     text-align: center;
     font-weight: bold;
     font-size: 50px;
-    background-image: url(bg\ fruits.jpg);
+    background-image: url(images/bg\ fruits.jpg);
     background-position: center;
     background-size: cover;
     padding-top: 150px;
@@ -377,10 +393,11 @@ body {
 
 .dom2 .client3 i {
     font-size: 25px;
-    padding: 10px;
+    padding: 13px 10px;
     background-color: black;
     border-radius: 50%;
     color: white;
+    margin-right: 10px;
 }
 
 
@@ -415,9 +432,11 @@ body {
 .feed1 form button {
     padding: 10px 30px;
     background-color: red;
+    border: none;
     color: white;
     text-align: center;
-    border-color: red;
+    margin-top: 20px;
+    border-radius: 15px;
 }
 
 .feed1 form button:hover {
@@ -449,6 +468,7 @@ body {
 .part7 {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+    text-transform: capitalize;
 }
 
 .phase1 {
@@ -499,6 +519,7 @@ body {
     border: none;
     text-align: center;
     margin-top: 20px;
+    border-radius: 15px;
 }
 
 .phase4 button .char {
@@ -534,7 +555,7 @@ footer {
 }
 
 .bgimg{
-    background-image: url("sideimg.png");
+    background-image: url("images/sideimg.png");
     background-repeat: no-repeat;
     background-position: right center;
     /* background-size: cover; */
@@ -566,12 +587,15 @@ footer {
     text-align: center;
     margin-bottom: 20px;
     padding: 20px 40px;
+    margin-left: 50px;
 }
 
 .sect1 .two {
     text-align: center;
     margin-bottom: 20px;
     padding: 20px 40px;
+    margin-left: 50px;
+
 }
 
 .sect2 img {
@@ -664,5 +688,8 @@ footer {
 }
 .phase4 .button {
     text-align: center;
+}
+.sector1 {
+    margin-bottom: 30px;
 }
 }
